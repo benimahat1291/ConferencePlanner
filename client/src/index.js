@@ -7,7 +7,7 @@ import './index.css';
 ReactDOM.render(
   <Auth0Provider
     domain="plain-mode-2302.us.auth0.com"
-    clientId="tCyhFrQCjzicfXDzy4YqPucZ7tFE1jeR"
+    clientId="xBw0ymXSMB5GKrOSQ1S3LOI592wFSCAR"
     redirectUri={`${window.location.origin}/profile`}
   >
     <App />
