@@ -6,8 +6,8 @@ import './index.css';
 
 ReactDOM.render(
   <Auth0Provider
-    domain="holy-mud-6180.us.auth0.com"
-    clientId="ek0Ow28dmkKDDGj3oE5FaxkK4AjibqJO"
+    domain="plain-mode-2302.us.auth0.com"
+    clientId="tCyhFrQCjzicfXDzy4YqPucZ7tFE1jeR"
     redirectUri={`${window.location.origin}/profile`}
   >
     <App />
