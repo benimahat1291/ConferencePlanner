@@ -18,7 +18,7 @@ Welcome to Cool Cats conference planner, your conference planning home. Gone are
 
 ## Links
 
-[Deployed application on Heroku](https://conference-planner.herokuapp.com/)
+[Deployed application on Heroku](https://conference-planner-123432.herokuapp.com/)
 
 ## Screenshots
 
@@ -75,7 +75,3 @@ We believe code is never finished, welcome your contributions to enhance the app
 ## Questions
 
 If you have further questions, you can find us on Github: [Anna Battista](https://github.com/abattista24), [Laura Cole](https://github.com/LauraCole1900), [Beni Mahat](https://github.com/benimahat1291), [Travis Messall](https://github.com/tmessall), [Brenda Miller](https://github.com/millerbee), and [Alec Rewinkel](https://github.com/arewinkl).
-
-## License
-
-![License badge](https://img.shields.io/badge/license-MIT-blue).
