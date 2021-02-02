@@ -10,15 +10,17 @@
 * [Collaborators](#collaborators)
 * [Contributing](#contributing)
 * [Questions](#questions)
-* [License](#license)
 
 ## Description
 
-Welcome to Cool Cats conference planner, your conference planning home. Gone are the days of important conference details lost in a mess of scrap paper! This application is designed to be a hub for all things conference. Here you can create a conference, keep track of the necessary details, see available conferences and register.
+Welcome to Cool Cats conference planner, your conference planning home. Gone are the days of important conference details lost in a mess of scrap paper! This application is designed to be a hub for all things conference. Here you can create a conference, keep track of the necessary details, see available conferences and show interest in other users conferences.
+
+This application is powered by the MERN stack, using mongoDB to host the Back-end and React.js for the front-end framework. 
+
 
 ## Links
 
-[Deployed application on Heroku](https://conference-planner-123432.herokuapp.com/)
+[See the Deployed Conference Planner on Heroku](https://conference-planner-123432.herokuapp.com/)
 
 ## Screenshots
 
@@ -41,7 +43,8 @@ Main conferences page:
 
 ## Installation Instructions
 
-npm i 
+run "npm i" in the root file of the application. 
+run "npm start" to start development server on your localhost
 
 ## Usage
 
@@ -61,7 +64,7 @@ npm run test
 
 ## Collaborators
 
-This app was built by Anna Battista, Laura Cole, Beni Mahat, Travis Messall, Brenda Miller, and Alec Rewinkel.
+This app was built by Beni Mahat, Anna Battista, Laura Cole, Travis Messall, Brenda Miller, and Alec Rewinkel.
 
 ## Contributing
 
