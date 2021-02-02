@@ -35,8 +35,7 @@ mongoose.connect(
       useFindAndModify: false
     }
   );
-//Connect to MongoDB
-// mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/conference");
+
 
 app.listen(PORT, () => {
   console.log(`🌎 ==> API server now on port ${PORT}`);

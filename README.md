@@ -23,25 +23,20 @@ Welcome to Cool Cats conference planner, your conference planning home. Gone are
 ## Screenshots
 
 Landing page:
-![Landing page:](public/assets/cccp-lander.png)
+![Landing page:](client/public/images/Login.png)
 
 Login screen using auth0:
-![Login screen:](public/assets/cccp-signin.png)
+![Login screen:](client/public/images/Auth.png)
 
 Profile page:
-![Profile page](public/assets/cccp-profile-page.png)
+![Profile page](client/public/images/Profile.png)
 
 Main conferences page:
-![Main conferences page](public/assets/cccp-main-conferences-page.png)
+![Main conferences page](client/public/images/Conference.png)
 
-"Create conference" page:
-!["Create conference" page](public/assets/cccp-create-conference.png)
+"Create form" page:
+!["Create session" page](client/public/images/Form.png)
 
-"Create session" page:
-!["Create session" page](public/assets/cccp-create-session.png)
-
-Page for a specific conference:
-![Page for a specific conference](public/assets/cccp-details.png)
 
 
 ## Installation Instructions
