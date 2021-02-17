@@ -1,23 +1,46 @@
 import React from "react";
-// import { Container, Card } from "react-bootstrap";
+import Particles from "react-particles-js"
 import { useAuth0 } from "@auth0/auth0-react";
-import Title from "../title";
 import './login.css';
 
 const Login = () => {
-  const { loginWithRedirect, isAuthenticated } = useAuth0();
+    const { loginWithRedirect, isAuthenticated } = useAuth0();
 
-  return (
-    !isAuthenticated && (
-      <div >
-        <Title/>
-        <div className="loginCard">
-            <h2 id="welcome"> Welcome to Cool Cats Conference Planner</h2>
-            <button onClick={() => loginWithRedirect()} className="loginBtn">Log in</button>
-        </div>
-      </div>
+    return (
+        !isAuthenticated && (
+            <div >
+                <div className="login__container">
+                <div className="login__card">
+                    <h1>EVENTER</h1>
+                    <h2>Organize Your Next Event</h2>
+                    <button onClick={() => loginWithRedirect()} className="loginBtn">Log-in / Sign-up</button>
+                </div>
+                </div>
+                <Particles id="particles-js"
+                    params={{
+                        "particles": {
+                            "number": {
+                                "value": 200
+                            },
+                            "size": {
+                                "value": 3
+                            }
+                        },
+                        "interactivity": {
+                            "detect_on": "window",
+                            "events": {
+                                "onhover": {
+                                    "enable": true,
+                                    "mode": "repulse"
+                                }
+                            }
+                        }
+                    }}
+                ></Particles>
+
+            </div>
+        )
     )
-  )
 };
 
 export default Login;

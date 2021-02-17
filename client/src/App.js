@@ -24,7 +24,7 @@ function App() {
   if (isLoading) return <div>Loading...</div>
   return (
       <div className="Body">
-    <div style={{margin:"2vw"}}>
+    <div>
       <Router>
         <header>
           <div>
@@ -32,7 +32,7 @@ function App() {
           </div>
         </header>
         <main>
-          <div className="container-fluid" style={{width:"75%"}}>
+          <div>
             <Route exact path="/profile" component={Profile} />
             <Route exact path="/conferences" component={Conference} />
             <Route path="/session" component={Session} />
