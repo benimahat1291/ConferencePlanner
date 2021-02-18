@@ -1,7 +1,7 @@
 import React from "react";
 import Particles from "react-particles-js"
 import { useAuth0 } from "@auth0/auth0-react";
-import './login.css';
+import './Login.css';
 
 const Login = () => {
     const { loginWithRedirect, isAuthenticated } = useAuth0();

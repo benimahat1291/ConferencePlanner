@@ -1,16 +1,51 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import { useAuth0 } from "@auth0/auth0-react";
-import { Navbar, NavDropdown, Nav, Row } from "react-bootstrap";
-import "./style.css";
+import "./Navbar.css";
 
-const Navigation = () => {
+const Navbar = () => {
     const { logout } = useAuth0();
     const location = useLocation();
     return (
 
         <>
-            <Navbar className="gradientnav navbar-expand-lg" style={{ borderRadius: "15px", border: "5px solid #274046"  }} collapseOnSelect expand="lg"  variant="dark">
+            <div className="nav">
+                <div className="nav__left">
+                    <Link>
+                        <span>Eventor</span>
+                    </Link>
+                </div>
+
+                <div className="nav__right">
+                    <Link>
+                    <span>Your Events</span>
+                    </Link>
+                    <Link>
+                    <span>All Events</span>
+                    </Link>
+                    <Link onClick={() => logout({ returnTo: window.location.origin })}>
+                    <span>Log Out</span>
+                    </Link>
+                </div>
+
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            {/* <Navbar className="gradientnav navbar-expand-lg" style={{ borderRadius: "15px", border: "5px solid #274046"  }} collapseOnSelect expand="lg"  variant="dark">
                 <Navbar.Brand className="mylogo ml-3">
                     <Link to="/profile">
                         <div><img alt="logo" src="/images/ccLogo.png" height="60" /></div>
@@ -51,9 +86,9 @@ const Navigation = () => {
 
                     </Nav>
                 </Navbar.Collapse>
-            </Navbar>
+            </Navbar> */}
         </>
     )
 }
 
-export default Navigation;
+export default Navbar;
